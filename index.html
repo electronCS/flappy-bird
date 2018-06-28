@@ -1,15 +1,30 @@
 <html>
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-  <script language="javascript" type="text/javascript" src="bird.js"></script>
-  <script language="javascript" type="text/javascript" src="pipe.js"></script>
-  <script language="javascript" type="text/javascript" src="flappy_bird.js"></script>
+    <style>
+    body {padding: 0; margin: 0;}
+    #sketch-holder{
+        width:400px;
+        height: 600px;
+        justify-content: center;
+        margin:auto;
+        border:10px solid black;
+    }
 
-  <style> body {padding: 0; margin: 0;} </style>
+    </style>
+    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="bird.js"></script>
+    <script language="javascript" type="text/javascript" src="pipe.js" id = "app"></script>
+     <script language="javascript" type="text/javascript" src="flappy_bird.js"></script>
+
+
 </head>
 
 <body>
+
+    <div id = "sketch-holder">
+    </div>
+
 </body>
 </html>
